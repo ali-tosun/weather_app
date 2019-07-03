@@ -6,6 +6,6 @@ class Location extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("Konya",style: TextStyle(fontSize: 36,fontStyle: FontStyle.italic),);
+    return Text("${selectedCity}",style: TextStyle(fontSize: 36,fontStyle: FontStyle.italic),);
   }
 }
